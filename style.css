@@ -1,75 +1,96 @@
+
 body{
-    background: linear-gradient(to right, #1D1A39, #451952) 
+    background: linear-gradient(to right, #061D39, #306889)
+}
+
+label{
+    font-size: 15px;
+   }
+
+input{
+    color: white;
+    font-size: 15px;
+    padding: 5px 5px 5px;
+    background-color: #011124;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px #477C9B;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+ }
+
+h1{
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
     
-       
- }
- label{
-  font-size: 20px;
- }
- 
- 
- 
- 
- input{
-  color: #F39F5A;
-  font-size: 20px;
-  padding: 20px 5px 5px;
-  background-color: #1D1A39;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 3px 3px 3px #662549;
- }
- 
- h1 {
-     text-align: center;
-     color: #F39F5A;
- }
+    
+}
 
- h2 {
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
     text-align: center;
-    color: #F39F5A; 
- }  
- 
- h3 {
-    text-align: center;
-    color: #F39F5A; 
- }  
+    color: white;
 
- 
- .frêquencia {
-    color: #F39F5A;
-    left: 560px;
+    
+}
 
- }
- .comprimento {
-    color: #F39F5A;
-    align-items: center;
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
     text-align: center;
- 
- }
- .botão button {
+    color: white;
+}
+
+
+
+.frequência {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+
+.comprimento {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+
+}
+
+.botão button {
     justify-content: center; 
     align-items: center; 
     margin-left: auto;
     margin-right: auto;
     display: block;  
     margin-top: 10px;
-    background-color: #F39F5A;
+    background-color: #011124;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
- }
- 
- .botão button:hover {
-    background-color: #1D1A39;
-    box-shadow: 3px 3px 3px #662549;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+}
+
+.botão button:hover {
+    background-color: #011124;
+    box-shadow: 3px 3px 3px #477C9B;
     
  }
+
  .resultado{
-    color: #F39F5A;
+    color: white;
     font-size: 20px;
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
  }
+
+ 
